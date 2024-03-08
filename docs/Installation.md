@@ -163,3 +163,16 @@ Unter http://localhost:4000/ wird angezeigt -> 'Just the Docs Template'
 - [Anwendungen neuen Dateityp bzw. Anwendung hinzufügen](https://www.camp-firefox.de/forum/thema/135174-anwendungen-neuen-dateityp-bzw-anwendung-hinzuf%C3%BCgen/): Genauer: https://www.camp-firefox.de/forum/thema/135174-anwendungen-neuen-dateityp-bzw-anwendung-hinzuf%C3%BCgen/?postID=1207945#post1207945
 
 Wegen Öffnen von *.C Dateien in Firefox, siehe "C:\Program Files\Mozilla Firefox\firefox.exe".
+
+## Log
+
+- 08.03.24: Im build-Schritt tritt der Fehler:
+"Error: The process '/opt/hostedtoolcache/Ruby/3.1.4/x64/bin/bundle' failed with exit code 16"
+auf. Als Lösung wird immer wieder auf das Installieren von [bundle lock --add-platform x86_64-linux](https://stackoverflow.com/questions/76756736/error-the-process-opt-hostedtoolcache-ruby-3-1-4-x64-bin-bundle-failed-with) verwiesen. Es muss aber hier eine andere Lösung geben, da x86_64-linux in Gemfile.lock vorhanden ist:
+
+````text
+PLATFORMS
+  arm64-darwin-23
+  x64-mingw-ucrt
+  x86_64-linux
+````  
