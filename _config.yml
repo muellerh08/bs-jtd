@@ -3,7 +3,8 @@ title: Backtesting
 description: A starter template for a Jeykll site using the Just the Docs theme!
 theme: just-the-docs
 
-url: https://bs-jtd.github.io
+repository              : muellerh08/bs-jtd
+url                     : https://github.com/muellerh08/bs-jtd
 baseurl: ""
 plugins:
   - jekyll-default-layout

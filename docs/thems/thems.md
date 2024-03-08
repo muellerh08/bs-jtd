@@ -1,10 +1,9 @@
 ---
 layout: default
 title: Themenseiten
-parent: BsTd
-nav_order: 4
+nav_order: 3
 has_children: true
-permalink: /docs/bstd/thems
+permalink: /docs/thems
 ---
 
 # Themenseiten

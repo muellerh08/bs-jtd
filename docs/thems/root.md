@@ -2,7 +2,6 @@
 layout: default
 title: Root
 parent: Themenseiten
-grand_parent: BsTd
 nav_order: 2
 ---
 14.01.24: Diese Seite neu angelegt für alles, was Root betrifft.

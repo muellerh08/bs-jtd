@@ -2,7 +2,6 @@
 layout: default
 title: Jekyll
 parent: Themenseiten
-grand_parent: BsTd
 nav_order: 3
 ---
 21.02.24: Diese Seite neu angelegt für alles, was Jekyll betrifft.

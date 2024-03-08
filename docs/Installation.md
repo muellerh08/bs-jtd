@@ -153,9 +153,7 @@ Configuration file: C:/Users/User/BsTd/BsWb/bs-jtd/_config.yml
  Auto-regeneration: enabled for 'C:/Users/User/BsTd/BsWb/bs-jtd'
     Server address: http://127.0.0.1:4000
   Server running... press ctrl-c to stop.
-
 ----------------------------------------------------------------------------------------
-
 Unter http://localhost:4000/ wird angezeigt -> 'Just the Docs Template'
 ````
 
@@ -164,4 +162,4 @@ Unter http://localhost:4000/ wird angezeigt -> 'Just the Docs Template'
 - [URLs and links in Jekyll](https://mademistakes.com/mastering-jekyll/how-to-link/)
 - [Anwendungen neuen Dateityp bzw. Anwendung hinzufügen](https://www.camp-firefox.de/forum/thema/135174-anwendungen-neuen-dateityp-bzw-anwendung-hinzuf%C3%BCgen/): Genauer: https://www.camp-firefox.de/forum/thema/135174-anwendungen-neuen-dateityp-bzw-anwendung-hinzuf%C3%BCgen/?postID=1207945#post1207945
 
-Wegen Öffnen von *.C Dateien in Firefox, "C:\Program Files\Mozilla Firefox\firefox.exe".
+Wegen Öffnen von *.C Dateien in Firefox, siehe "C:\Program Files\Mozilla Firefox\firefox.exe".

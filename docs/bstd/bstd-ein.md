@@ -4,8 +4,6 @@ title: BsTd Einleitung
 parent: BsTd
 nav_order: 1
 ---
-
-- Nicht vergessen: Link zu LogBmBp
 {: .no_toc }
 <details open markdown="block">
   <summary>
@@ -36,8 +34,8 @@ diskutiert.
 von September 2017 wird darauf hingewiesen, dass das Module 'C++/CLI support' aktiviert
 sein muss. (Dazu wird der Visual Studio Installer benutzt.) Das war bis heute nicht 
 der Fall, obwohl ja RmLib C++/CLI nutzt. Ich bin gespannt, ob sich was ändert!
-- 17.01.18: Wiederbelebung von Testtools siehe
-https://docs.microsoft.com/de-de/visualstudio/test/improve-code-quality
+- 17.01.18: Wiederbelebung von Testtools siehe [Einführung zu Testtools in Visual Studio](
+https://docs.microsoft.com/de-de/visualstudio/test/improve-code-quality)
 - 14.06.18: Auf Ac16\\SQL17 sind alle Datenbasen auf Collation=Latin1_General_CS_AS
 umgestellt (Properties->Options->Collation: im Drop-Down Latin1_General_CS_AS 
 auswählen) von vorher Latin1_General_CI_AS. Hier stehen CI für Case Insensitive und
@@ -66,10 +64,10 @@ in vielen Fällen erleichtern, und vielleicht könnten mit der Release Variante 
 - 22.01.24: Nach längerer Pause (wegen SmartThings) Neustart mit root_v6.30.02.
 - Aktuelle Konfiguration wird durch Umgebungsvariable z.B. ROOTSYS=C:/Prog/Root/root_v6.30.02/Release oder
 .../Debug festgelegt.
-- Mittels BmLib hatte ich begonnen auch managed Code in native C++ zu verwenden. Das soll rückgängig gemacht 
+- Mittels BmLib hatte ich begonnen auch managed Code in native C++ zu verwenden. Das soll rückgängig gemacht
 werden, um mit BpLib, RtLib und RtM einen Bereich mit ausschließlich native Code zu haben, der eventuell auch
 als Linux-Variante in WLS laufen könnte.
-  - Details siehe [LogBmBp](/docs/bstd/thems/bm-bp/#logbmbp)
+  - Details siehe [LogBmBp](../thems/bm-bp/#logbmbp)
 - Bem. zu PowerShell siehe [Was ist Windows PowerShell?](
 https://learn.microsoft.com/de-de/powershell/scripting/windows-powershell/overview?view=powershell-7.4):
 Windows PowerShell und PowerShell sind zwei separate Produkte. -> PowerShell wird weiterentwickelt

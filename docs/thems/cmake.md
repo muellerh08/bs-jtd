@@ -2,7 +2,6 @@
 layout: default
 title: Cmake
 parent: Themenseiten
-grand_parent: BsTd
 nav_order: 1
 ---
 

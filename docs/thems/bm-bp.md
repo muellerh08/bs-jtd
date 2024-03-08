@@ -2,7 +2,6 @@
 layout: default
 title: LogBmBp
 parent: Themenseiten
-grand_parent: BsTd
 nav_order: 99
 ---
 
